@@ -1,0 +1,15 @@
+/* .banner{
+    background-color: #fcf6f0;
+} */
+.banner h1{
+    display: inline;
+}
+.banner-sec-upward img{
+    width: 100%;
+    height: 500px;
+}
+.banner-sec-downward img{
+    margin-top: -150px;
+    width: 330px;
+    height: 330px;
+}
