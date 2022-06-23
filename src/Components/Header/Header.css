@@ -1,24 +1,25 @@
 .nav{
-    font-weight: 700;
+    /* background: rgba(88, 122, 103, 0.514); */
 }
 .header .button{
     font-size: 14px;
+    font-weight: 600;
     margin-bottom: 12px;
     margin: 10px;
     border-radius: 40px;
     border: 2px solid black;
 }
 .header .button:hover{
-    background-color: #ffa15d;
+    background-color: #6c7a6b;
 }
 
 @media only screen and (max-width: 776px)  {
     .header{
+        font-weight: 400;
         width: 100%;
     }
     .header .button{
         width: 103px;
-        margin: 0 auto;
-        margin-top: 10px;
+        margin: 15px auto;
     }
 }
