@@ -1,6 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import ContactUs from '../ContactUs/ContactUs';
 import InventoryItems from '../InventoryItems/InventoryItems';
+import Testimonials from '../Testimonials/Testimonials';
 import './Home.css';
 
 const Home = () => {
@@ -66,6 +68,9 @@ const Home = () => {
             {/* ---inventory items--- */}
             <div>
                 <InventoryItems></InventoryItems>
+            </div>
+            <div>
+                <Testimonials></Testimonials>
             </div>
         </div>
     );
