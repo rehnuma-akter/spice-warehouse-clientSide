@@ -1,0 +1,17 @@
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.testimonials p{
+    text-align: center;
+}
+.testimonials img{
+    width: 450px;
+    height: 400px;
+}
+@media only screen and (max-width: 776px){
+    .testimonials{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
