@@ -1,0 +1,24 @@
+.recipe{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    margin: 28px;
+}
+.recipe img{
+    width: 280px;
+}
+.recipe-info{
+    text-align: left;
+    margin-top: 15px;
+}
+.recipe-info a{
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background: #6c7a6b;
+    color: white;
+}
+.recipe-info a:hover{
+    background-color: green;
+}
