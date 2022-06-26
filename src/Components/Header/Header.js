@@ -18,6 +18,7 @@ const Header = () => {
                     <Nav.Link className='p-3' as={Link} to="/blog">Blog</Nav.Link>
                     <Nav.Link className='p-3' as={Link} to="/myItems">My Items</Nav.Link>
                     <Nav.Link className='p-3' as={Link} to="/recipes">Recipes</Nav.Link>
+                    <Nav.Link className='p-3' as={Link} to="/contactUs">Contact Us</Nav.Link>
                 </Nav>
                 <Nav>
                     <Nav.Link as={Link} to="/logIn" className='button px-3 py-1'>Log In</Nav.Link>

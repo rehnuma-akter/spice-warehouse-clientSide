@@ -69,6 +69,7 @@ const Home = () => {
             <div>
                 <InventoryItems></InventoryItems>
             </div>
+            {/* ---Testimonials--- */}
             <div>
                 <Testimonials></Testimonials>
             </div>
