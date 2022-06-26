@@ -1,0 +1,25 @@
+.contact-us{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    height: 700px;
+}
+.form{
+    height: 510px;
+    width: 400px;
+    background-color: rgba(230, 230, 230, 0.667);
+    transform: translate(20%,5%);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 0 0 10px rgba(69, 69, 70, 0.366);
+    padding: 30px 35px;
+    letter-spacing: 0.5px;
+}
+.form input{
+    padding: 8px;
+    margin: 12px;
+}
+.form .email, .pass{
+    width: 245px;
+}
