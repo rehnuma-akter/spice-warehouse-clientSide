@@ -85,6 +85,7 @@ const InventoryItems = () => {
                 </Card.Body>
             </Card>
             </div>
+            <Button className='my-5'>Manage All Inventories</Button>
         </div>
     );
 };

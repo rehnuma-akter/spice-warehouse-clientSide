@@ -1,0 +1,10 @@
+.social-container{
+    cursor: pointer;
+    margin-bottom: 13px;
+}
+.social-container:hover{
+    color: rgb(45, 72, 193);
+}
+.social{
+    font-size: 30px;
+}

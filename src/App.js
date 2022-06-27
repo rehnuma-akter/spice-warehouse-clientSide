@@ -12,6 +12,8 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import NotFound from './Components/NotFound/NotFound';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -33,6 +35,7 @@ function App() {
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer />
     </div>
   );
 }

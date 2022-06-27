@@ -1,0 +1,37 @@
+.form-body{
+    margin: 0 auto;
+    height: 560px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.667);
+    border-radius: 10px;
+    padding: 40px 35px;
+    letter-spacing: 0.5px;
+}
+.form-body h3{
+    font-size: 25px;
+    margin: 15px 0px;
+    padding-bottom: 12px;
+}
+.form-body button{
+    border: none;
+    padding: 3px;
+    width: 150px;
+    border-radius: 17px;
+    margin-top: 12px;
+    background-color: #d24602;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.form-body button:hover{
+    font-weight: 600;
+    color: #d24602;
+    background-color: #fff;
+    border: 2px solid #d24602;
+}
+form input{
+    width: 320px;
+    padding: 3px;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+    outline: none;
+}
