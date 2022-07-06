@@ -103,8 +103,8 @@ const AddItem = () => {
                 required
                 name="image"
                 ></input>
-                <Button variant="primary" type="submit">
-                    Add Items
+                <Button variant="primary" type="submit" className="my-4 px-4">
+                    Add Item
                 </Button>
             </form>
             </div>

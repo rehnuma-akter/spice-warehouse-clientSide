@@ -63,7 +63,7 @@ const Home = () => {
                 </div>
                 <div className='about-text'>
                     <h2>About Us</h2>
-                    <p>Founded in 1957, The Spice House is a purveyor of the finest spices, herbs, blends,
+                    <p>Founded in 1957, This Spice House is a purveyor of the finest spices, herbs, blends,
                         and extracts to customers ranging from renowned Michelin-star chefs to home cooks 
                         everywhere. We have spent over 60 years curating our global network of premium growers 
                         and distributors in order to offer our customers unrivaled quality and selection. Our 
@@ -72,7 +72,7 @@ const Home = () => {
                 </div>
             </div>
             {/* ---inventory items--- */}
-            <div className="my-4 pb-4">
+            <div className="my-4 pb-4 inventory">
                 <h2 className="text-center my-5">Inventory </h2>
 
                 <div className="container row justify-content-evenly gap-5 mx-auto ">
@@ -87,7 +87,7 @@ const Home = () => {
                 </div>
             </div>
             {/* ---Testimonials--- */}
-            <div>
+            <div className='reviews'>
                 <Testimonials></Testimonials>
             </div>
         </div>

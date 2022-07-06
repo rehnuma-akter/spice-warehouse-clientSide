@@ -1,17 +1,19 @@
 .testimonials{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 4fr 3fr;
 }
 .testimonials p{
     text-align: center;
+    font-size: 15px;
 }
 .testimonials img{
-    width: 450px;
-    height: 400px;
+    width: 400px;
+    height: 480px;
 }
 @media only screen and (max-width: 776px){
     .testimonials{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        text-align: center;
     }
 }
