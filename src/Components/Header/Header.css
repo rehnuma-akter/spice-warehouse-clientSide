@@ -1,6 +1,4 @@
-.nav{
-    /* background: rgba(88, 122, 103, 0.514); */
-}
+
 .header .button{
     font-size: 14px;
     font-weight: 600;
@@ -12,6 +10,9 @@
 .header .button:hover{
     background-color: #6c7a6b;
 }
+.protected-items .items{
+    display: inline;
+}
 
 @media only screen and (max-width: 776px)  {
     .header{
@@ -21,5 +22,8 @@
     .header .button{
         width: 103px;
         margin: 15px auto;
+    }
+    .protected-items .items{
+        display: block;
     }
 }

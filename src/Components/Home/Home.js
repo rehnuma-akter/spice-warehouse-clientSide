@@ -1,11 +1,17 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
-import ContactUs from '../ContactUs/ContactUs';
-import InventoryItems from '../InventoryItems/InventoryItems';
+import React, { useEffect, useState } from 'react';
+import { Button, Carousel } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
+import Inventories from '../Inventories/Inventories';
 import Testimonials from '../Testimonials/Testimonials';
 import './Home.css';
 
 const Home = () => {
+    const [spices, setProducts] = useState([]);
+    useEffect(() => {
+        fetch("https://safe-badlands-04519.herokuapp.com/spices")
+        .then((res) => res.json())
+        .then((data) => setProducts(data));
+    }, []);
     return (
         <div>
             {/* ---banner section--- */}
@@ -66,8 +72,19 @@ const Home = () => {
                 </div>
             </div>
             {/* ---inventory items--- */}
-            <div>
-                <InventoryItems></InventoryItems>
+            <div className="my-4 pb-4">
+                <h2 className="text-center my-5">Inventory </h2>
+
+                <div className="container row justify-content-evenly gap-5 mx-auto ">
+                {spices?.slice(0, 6).map((product) => (
+                    <Inventories key={product._id} product={product}></Inventories>
+                ))}
+                </div>
+                <div className="my-4  text-center">
+                <Link to={"/manageInventory"}>
+                    <Button className='btn btn-danger px-5 my-4'>Manage All Inventory</Button>
+                </Link>
+                </div>
             </div>
             {/* ---Testimonials--- */}
             <div>

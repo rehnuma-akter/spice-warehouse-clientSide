@@ -65,7 +65,7 @@ const Register = () => {
                     <p>
                     Already have an account?
                     <span>
-                        <Link to="/login" className="text-decoration-none text-danger">Log In</Link>
+                        <Link to="/login" className="text-decoration-none text-danger px-1">Log In</Link>
                     </span>
                     </p>
                 </form>

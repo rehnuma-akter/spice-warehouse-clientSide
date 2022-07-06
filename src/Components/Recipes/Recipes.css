@@ -1,20 +1,19 @@
-.recipe{
-    height: 300px;
-    display: grid;
-    grid-template-columns: 4fr 4fr;
-    margin: 28px;
+
+.recipe-img{
+    margin: 22px;
 }
-.recipe img{
-    width: 280px;
+.recipe-img img{
+    width: 320px;
 }
 .recipe-info{
-    text-align: left;
-    margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 39px;
 }
 .recipe-info a{
     font-size: 12px;
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 8px 18px;
     border-radius: 30px;
     background: #6c7a6b;
     color: white;

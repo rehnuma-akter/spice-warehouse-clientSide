@@ -20,10 +20,14 @@ const Header = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mx-auto">
                     <Nav.Link className='p-3' as={Link} to="/">Home</Nav.Link>
-                    <Nav.Link className='p-3' as={Link} to="/manageItems">Manage Items</Nav.Link>
-                    <Nav.Link className='p-3' as={Link} to="/addItem">Add Item</Nav.Link>
+                    {user &&( 
+                        <div className='protected-items my-3'>
+                            <Nav.Link className='items' as={Link} to="/manageInventory">Manage Items</Nav.Link>
+                            <Nav.Link className='items' as={Link} to="/addItem">Add Item</Nav.Link>
+                            <Nav.Link className='items' as={Link} to="/myItems">My Items</Nav.Link>
+                        </div>
+                    )}
                     <Nav.Link className='p-3' as={Link} to="/blog">Blog</Nav.Link>
-                    <Nav.Link className='p-3' as={Link} to="/myItems">My Items</Nav.Link>
                     <Nav.Link className='p-3' as={Link} to="/recipes">Recipes</Nav.Link>
                     <Nav.Link className='p-3' as={Link} to="/contactUs">Contact Us</Nav.Link>
                 </Nav>
