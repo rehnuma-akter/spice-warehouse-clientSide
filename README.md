@@ -22,4 +22,6 @@
 * Firebase,
 * React firebase hooks,
 * React Icon,
-* Axios.
+* Axios,
+* NodeJS,
+* MongoDB.
